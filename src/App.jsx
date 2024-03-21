@@ -24,9 +24,9 @@ import EditProveedo from "./pages/admin/Proveedores/EditProveedo";
 
 function App() {
   return (
-    <BrowserRouter>
+   <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path="/" element={<LayoutAdmin />}>
           <Route path="dashboard" element={<Home />} />
           <Route path="inventario" element={<Inventario />} />
 
