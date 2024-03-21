@@ -26,7 +26,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LayoutAdmin />}>
+        <Route path="/" element={<Home />}>
           <Route path="dashboard" element={<Home />} />
           <Route path="inventario" element={<Inventario />} />
 
